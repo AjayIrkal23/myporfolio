@@ -2,53 +2,54 @@ import React from 'react'
 import Image from 'next/image';
 
 
+
 const data = [
     {
-        Image:"/../public/assests/bootstrap_logo.svg.png",
+        Image:"../public/assests/bootstrap_logo.svg.png",
         Title:"Bootstrap"
     },
     {
-        Image:"/../public/assests/css.png",
+        Image:"../public/assests/css.png",
         Title:"Css"
     },
     {
-        Image:"/../public/assests/firebase.png",
+        Image:"../public/assests/firebase.png",
         Title:"Firebase"
     },
     {
-        Image:"/../public/assests/github1.png",
+        Image:"../public/assests/github1.png",
         Title:"GitHub"
     },
     {
-        Image:"/../public/assests/html.png",
+        Image:"../public/assests/html.png",
         Title:"Html"
     },
     {
-        Image:"/../public/assests/javascript.png",
+        Image:"../public/assests/javascript.png",
         Title:"Javascript"
     },
     {
-        Image:"/../public/assests/mui.png",
+        Image:"../public/assests/mui.png",
         Title:"Material UI"
     },
     {
-        Image:"/../public/assests/node.png",
+        Image:"../public/assests/node.png",
         Title:"Node JS"
     },
     {
-        Image:"/../public/assests/react.png",
+        Image:"../public/assests/react.png",
         Title:"React JS"
     },
     {
-        Image:"/../public/assests/tailwind.png",
+        Image:"../public/assests/tailwind.png",
         Title:"TailWind Css"
     },
     {
-        Image:"/../public/assests/mongo.png",
+        Image:"../public/assests/mongo.png",
         Title:"MongoDB"
     },
     {
-        Image:"/../public/assests/styled-components.png",
+        Image:"../public/assests/styled-components.png",
         Title:"Styled Component"
     },
 
