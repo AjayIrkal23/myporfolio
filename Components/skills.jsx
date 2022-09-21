@@ -1,55 +1,68 @@
 import React from 'react'
 import Image from 'next/image';
+import bootstrap from "../public/assests/bootstrap_logo.svg.png"
+import css from "../public/assests/css.png"
+import firebase from "../public/assests/firebase.png"
+import GitHub from "../public/assests/github1.png"
+import Html from "../public/assests/html.png"
+import MongoDB from "../public/assests/mongo.png"
+import Node from "../public/assests/node.png"
+import Material from "../public/assests/mui.png"
+import Javascript from "../public/assests/react.png"
+import React from "../public/assests/react.png"
+import Material from "../public/assests/mui.png"
+import TailWind from "../public/assests/tailwind.png"
+import styled from "../public/assests/styled-components.png"
 
 
 
 const data = [
     {
-        Image:"../public/assests/bootstrap_logo.svg.png",
+        Image:bootstrap,
         Title:"Bootstrap"
     },
     {
-        Image:"../public/assests/css.png",
+        Image:css,
         Title:"Css"
     },
     {
-        Image:"../public/assests/firebase.png",
+        Image:firebase,
         Title:"Firebase"
     },
     {
-        Image:"../public/assests/github1.png",
+        Image:GitHub,
         Title:"GitHub"
     },
     {
-        Image:"../public/assests/html.png",
+        Image:Html,
         Title:"Html"
     },
     {
-        Image:"../public/assests/javascript.png",
+        Image:Javascript,
         Title:"Javascript"
     },
     {
-        Image:"../public/assests/mui.png",
+        Image:Material,
         Title:"Material UI"
     },
     {
-        Image:"../public/assests/node.png",
+        Image:Node,
         Title:"Node JS"
     },
     {
-        Image:"../public/assests/react.png",
+        Image:React,
         Title:"React JS"
     },
     {
-        Image:"../public/assests/tailwind.png",
+        Image:TailWind,
         Title:"TailWind Css"
     },
     {
-        Image:"../public/assests/mongo.png",
+        Image:MongoDB,
         Title:"MongoDB"
     },
     {
-        Image:"../public/assests/styled-components.png",
+        Image:styled,
         Title:"Styled Component"
     },
 
