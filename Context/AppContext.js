@@ -3,7 +3,7 @@ import { createContext } from "react";
 import kohsa from "../public/assests/kohsa.png"
 import spevents from "../public/assests/spevents.png"
 import youtube from "../public/assests/mercysyoutube.png"
-import Whatsapp from "../public/assests/mercyswhatsapp.png"
+import Whatsapp from "../public/assests/mercysWhatsapp.png"
 import AnimatedPortfolio from "../public/assests/AnimatedPort.png"
 export const AccountContext = createContext(null);
 
