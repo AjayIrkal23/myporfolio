@@ -14,6 +14,7 @@ import { AccountContext } from './../Context/AppContext';
 
 export default function Home() {
   const {ProjData} = useContext(AccountContext)
+  const {data} = useContext(AccountContext)
   return (
     <div>
       <Head>
@@ -27,7 +28,7 @@ export default function Home() {
     <Hero />
     <About />
     <Certificates/>
-    <Skills />
+    <Skills data={data} />
     <Projects ProjData={ProjData} />
     <Contact />
     </div>

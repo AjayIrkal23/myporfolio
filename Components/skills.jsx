@@ -1,73 +1,11 @@
 import React from 'react'
 import Image from 'next/image';
-import bootstrap from "../public/assests/bootstrap_logo.svg.png"
-import css from "../public/assests/css.png"
-import firebase from "../public/assests/firebase.png"
-import GitHub from "../public/assests/github1.png"
-import Html from "../public/assests/html.png"
-import MongoDB from "../public/assests/mongo.png"
-import Node from "../public/assests/node.png"
-import Material from "../public/assests/mui.png"
-import Javascript from "../public/assests/react.png"
-import React from "../public/assests/react.png"
-import Material from "../public/assests/mui.png"
-import TailWind from "../public/assests/tailwind.png"
-import styled from "../public/assests/styled-components.png"
 
 
 
-const data = [
-    {
-        Image:bootstrap,
-        Title:"Bootstrap"
-    },
-    {
-        Image:css,
-        Title:"Css"
-    },
-    {
-        Image:firebase,
-        Title:"Firebase"
-    },
-    {
-        Image:GitHub,
-        Title:"GitHub"
-    },
-    {
-        Image:Html,
-        Title:"Html"
-    },
-    {
-        Image:Javascript,
-        Title:"Javascript"
-    },
-    {
-        Image:Material,
-        Title:"Material UI"
-    },
-    {
-        Image:Node,
-        Title:"Node JS"
-    },
-    {
-        Image:React,
-        Title:"React JS"
-    },
-    {
-        Image:TailWind,
-        Title:"TailWind Css"
-    },
-    {
-        Image:MongoDB,
-        Title:"MongoDB"
-    },
-    {
-        Image:styled,
-        Title:"Styled Component"
-    },
 
-]
-export const Skills = () => {
+
+export const Skills = ({data}) => {
     return (
         <div id="skills" className='w-full p-2 lg:h-screen'>
             <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
