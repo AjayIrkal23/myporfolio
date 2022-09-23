@@ -125,7 +125,7 @@ else{
                     <li onClick={()=>setNav(false)} className="py-4 text-md">Contact </li>
                   </Link>
                 </ul>
-                <div className='pt-9'>
+                <div className='pt-10'>
                   <p className='uppercase tracking-widest text-[#5651e5]'>Lets Connect </p>
                   <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                     <div className="p-2 duration-300 ease-in rounded-full shadow-lg cursor-pointer sm:p-3 shadow-gray-400 hover:scale-105">  <LinkedInIcon className='text-2xl' /></div>
