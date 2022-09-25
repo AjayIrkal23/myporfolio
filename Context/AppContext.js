@@ -4,7 +4,6 @@ import kohsa from "../public/assests/kohsa.png"
 import spevents from "../public/assests/spevents.png"
 import youtube from "../public/assests/mercysyoutube.png"
 import Whatsapp from "../public/assests/mercysWhatsapp.png"
-import AnimatedPortfolio from "../public/assests/AnimatedPort.png"
 import bootstrap from "../public/assests/Bootstrap_logo.svg.png"
 import css from "../public/assests/css.png"
 import firebase from "../public/assests/firebase.png"
@@ -15,6 +14,7 @@ import Node from "../public/assests/node.png"
 import Material from "../public/assests/mui.png"
 import Javascript from "../public/assests/javascript.png"
 import React from "../public/assests/react.png"
+import Netflix from "../public/assests/Netflix.png"
 
 import TailWind from "../public/assests/tailwind.png"
 import styled from "../public/assests/styled-components.png"
@@ -53,13 +53,13 @@ export const Accountprovider = ({ children }) => {
             Visit: "https://deft-tarsier-beda37.netlify.app/"
         },
         {
-            Image: AnimatedPortfolio,
-            Stack: "React / StyledComponent / TailWind / MUI / ReactTSparkles  ",
-            Title: "AnimatedPortfolio",
-            Url: "/AnimatedPortfolio",
-            Technologies: ["React", "Material UI", "ReactTSparkles", "TailWind", "NodeJs", "StyledCom"],
-            Description: "This is an animated portfolio Website made with React ReactTsparkles and Styled Components make sure you check it out ",
-            Visit: "https://singular-cactus-0fdf24.netlify.app/"
+            Image: Netflix,
+            Stack: "React / Nextjs / TailWind / MUI / Firebase ",
+            Title: "MercysNetflix",
+            Url: "/MercysNetflix",
+            Technologies: ["React", "Material UI", "Nextjs", "TailWind", "NodeJs", "FireBase"],
+            Description: "Netflix is one of the world's leading entertainment services with 221 million paid memberships in over 190 countries enjoying TV series, documentaries, feature films and mobile games across a wide variety of genres and languages. Members can watch as much as they want, anytime, anywhere, on any internet-connected screen. Members can play, pause and resume watching, all without commercials or commitments. ",
+            Visit: "https://mercysnetflix-8iu7.vercel.app/"
         },
 
         {
