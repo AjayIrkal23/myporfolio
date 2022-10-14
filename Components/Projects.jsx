@@ -24,11 +24,11 @@ export const Projects = ({ ProjData }) => {
                   <h3 className="text-2xl tracking-wider text-center text-white ">
                     {item.Title}
                   </h3>
-                  <p className="pt-2 pb-4 text-center text-white ">
+                  <p className="pt-2 pb-4 text-sm text-center text-white md:text-lg ">
                     {item.Stack}
                   </p>
                   <Link href={item.Url}>
-                    <p className="py-3 text-lg font-bold text-center text-gray-700 bg-white rounded-lg cursor-pointer">
+                    <p className="py-3 text-sm font-bold text-center text-gray-700 bg-white rounded-lg cursor-pointer md:text-lg">
                       More Info
                     </p>
                   </Link>

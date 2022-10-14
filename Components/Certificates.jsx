@@ -18,7 +18,7 @@ export const Certificates = () => {
     setValue(newValue);
   };
   return (
-    <div id="certificate" className="w-full p-2 mb-16 lg:h-screen">
+    <div id="certificate" className="w-full p-2 pb-6 md:mb-[170px] lg:h-screen">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest text-[#5651e5] uppercase py-4">
           Certifications
@@ -126,7 +126,7 @@ export const Certificates = () => {
                 height="600px"
                 alt="kohsa"
               />
-              <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
+              <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]  ">
                 <h3 className="text-2xl tracking-wider text-center text-white ">
                   Edureka Super Intern
                 </h3>

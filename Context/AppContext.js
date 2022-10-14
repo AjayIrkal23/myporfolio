@@ -15,9 +15,11 @@ import Material from "../public/assests/mui.png"
 import Javascript from "../public/assests/javascript.png"
 import React from "../public/assests/react.png"
 import Netflix from "../public/assests/Netflix.png"
-
+import Three from "../public/assests/three.png"
 import TailWind from "../public/assests/tailwind.png"
 import styled from "../public/assests/styled-components.png"
+import luckybet from "../public/assests/luckybet.png"
+import logo from "../public/assests/logo.jpg"
 export const AccountContext = createContext(null);
 
 
@@ -71,58 +73,80 @@ export const Accountprovider = ({ children }) => {
             Description: "SpEvents is corporate event organization which conducts any form of event, hospitality or social activity which is organised or funded by a business entity. With such a broad definition, the target audience for corporate events can be equally as broad, including but not limited to: Employees. Board members.",
             Visit: "https://www.thespevents.com/"
         },
+        {
+            Image: luckybet,
+            Stack: " REACT / Threejs / R3F / CannonJs / React-Cannonjs /  ",
+            Title: "LuckyBet",
+            Url: "/LuckyBet",
+            Technologies: ["React", "Three Js", "Cannonjs", "R3f"],
+            Description: "LuckyBet is an On development 3d Online Casino Game Where people place bets and win or lose their money this game is developed using threejs one of popular 3d development language [ Note This is desktop only for now as it is under development]",
+            Visit: "https://luckyshit.vercel.app/"
+        },
     ]
 
     const data = [
         {
-            Image:bootstrap,
-            Title:"Bootstrap"
+            Image: Javascript,
+            Title: "Javascript"
         },
         {
-            Image:css,
-            Title:"Css"
+            Image: Node,
+            Title: "Node JS"
         },
         {
-            Image:firebase,
-            Title:"Firebase"
+            Image: MongoDB,
+            Title: "MongoDB"
         },
         {
-            Image:GitHub,
-            Title:"GitHub"
+            Image: React,
+            Title: "React JS"
         },
         {
-            Image:Html,
-            Title:"Html"
+            Image: Three,
+            Title: "Three Js"
         },
         {
-            Image:Javascript,
-            Title:"Javascript"
+            Image: bootstrap,
+            Title: "Bootstrap"
         },
         {
-            Image:Material,
-            Title:"Material UI"
+            Image: logo,
+            Title: "R3F/R3Drei"
         },
         {
-            Image:Node,
-            Title:"Node JS"
+            Image: css,
+            Title: "Css"
         },
         {
-            Image:React,
-            Title:"React JS"
+            Image: firebase,
+            Title: "Firebase"
         },
         {
-            Image:TailWind,
-            Title:"TailWind Css"
+            Image: GitHub,
+            Title: "GitHub"
         },
         {
-            Image:MongoDB,
-            Title:"MongoDB"
+            Image: Html,
+            Title: "Html"
         },
+
+
         {
-            Image:styled,
-            Title:"Styled Component"
+            Image: Material,
+            Title: "Material UI"
         },
-    
+
+        {
+            Image: TailWind,
+            Title: "TailWind Css"
+        },
+
+        {
+            Image: styled,
+            Title: "Styled Component"
+        },
+
+
     ]
 
     return (
