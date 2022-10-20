@@ -80,7 +80,7 @@ export const Accountprovider = ({ children }) => {
             Url: "/LuckyBet",
             Technologies: ["React", "Three Js", "Cannonjs", "R3f"],
             Description: "LuckyBet is an On development 3d Online Casino Game Where people place bets and win or lose their money this game is developed using threejs one of popular 3d development language [ Note This is desktop only for now as it is under development]",
-            Visit: "https://luckyshit.vercel.app/"
+            Visit: "https://luckyhit.vercel.app/"
         },
     ]
 
