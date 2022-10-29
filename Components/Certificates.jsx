@@ -10,6 +10,7 @@ import HCss from "../public/assests/HCss.png";
 import HNode from "../public/assests/HNode.png";
 import responsive from "../public/assests/responsive.png";
 import Edureka from "../public/assests/edureka.png";
+import jscert from "../public/assests/jscert.png";
 
 export const Certificates = () => {
   const [value, setValue] = React.useState("1");
@@ -41,6 +42,7 @@ export const Certificates = () => {
               <Tab label="NodeJs" value="2" />
               <Tab label="Responsive Web Design" value="3" />
               <Tab label="Edureka SuperIntern" value="4" />
+              <Tab label="JS And DSA" value="5" />
             </TabList>
           </Box>
           <TabPanel value="1">
@@ -134,6 +136,30 @@ export const Certificates = () => {
                 <Link
                   target="blank"
                   href="https://www.edureka.co/lms/certificate/c91308ddbca3dd49cc29dd21314ea950"
+                >
+                  <p className="py-3 text-lg font-bold text-center text-gray-700 bg-white rounded-lg cursor-pointer">
+                    Visit
+                  </p>
+                </Link>
+              </div>
+            </div>
+          </TabPanel>
+          <TabPanel value="5">
+            {" "}
+            <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
+              <Image
+                className="rounded-xl group-hover:opacity-10 "
+                src={jscert}
+                alt="kohsa"
+              />
+              <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]  ">
+                <h3 className="text-2xl tracking-wider text-center text-white ">
+                  JavaScript and DSA
+                </h3>
+                <p className="pt-2 pb-4 text-center text-white ">Edureka</p>
+                <Link
+                  target="blank"
+                  href="https://www.freecodecamp.org/certification/AjayIrkal/javascript-algorithms-and-data-structures"
                 >
                   <p className="py-3 text-lg font-bold text-center text-gray-700 bg-white rounded-lg cursor-pointer">
                     Visit

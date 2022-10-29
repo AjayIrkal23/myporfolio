@@ -20,6 +20,8 @@ import TailWind from "../public/assests/tailwind.png"
 import styled from "../public/assests/styled-components.png"
 import luckybet from "../public/assests/luckybet.png"
 import logo from "../public/assests/logo.jpg"
+import next from "../public/assests/next.png"
+import supa from "../public/assests/supabase.png"
 export const AccountContext = createContext(null);
 
 
@@ -98,8 +100,16 @@ export const Accountprovider = ({ children }) => {
             Title: "MongoDB"
         },
         {
+            Image: supa,
+            Title: "SupaBase"
+        },
+        {
             Image: React,
             Title: "React JS"
+        },
+        {
+            Image: next,
+            Title: "NextJs"
         },
         {
             Image: Three,
@@ -145,6 +155,7 @@ export const Accountprovider = ({ children }) => {
             Image: styled,
             Title: "Styled Component"
         },
+
 
 
     ]
